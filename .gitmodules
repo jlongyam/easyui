@@ -1,0 +1,4 @@
+[submodule "src/lib/EasyUI"]
+	path = src/lib/EasyUI
+	url = https://github.com/Vladzimir/EasyUI
+	ignore = all

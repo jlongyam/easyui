@@ -1,1 +1,6 @@
-# ui-easy
+# EasyUI
+
+# Reference
+
+- Vladzimir/EasyUI
+- jeasyui.com
