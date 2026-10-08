@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <title>ui-icon</title>
+  <link rel="stylesheet" href="./ui-icon.css">
+  <script src="./ui-icon.code.js"></script>
+</head>
+
+<body>
+  <script>
+    for (let i in ui_icon_code) {
+      let el = document.createElement('i');
+      el.textContent = i;
+      el.className = 'ui-icon';
+      el.title = i;
+      el.style.cursor = 'pointer';
+      document.body.appendChild(el);
+    }
+  </script>
+</body>
+
+</html>
